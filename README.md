@@ -147,12 +147,6 @@ Machine-learning algorithms cannot directly work with raw text.
 
 The project uses **TF-IDF (Term Frequency–Inverse Document Frequency)** to convert reviews into numerical feature vectors.
 
-```python
-TfidfVectorizer(
-    max_features=5000,
-    ngram_range=(1, 2)
-)
-```
 
 ### Why TF-IDF?
 
@@ -248,16 +242,7 @@ After selecting Logistic Regression, **GridSearchCV** was used for hyperparamete
 
 It evaluates different hyperparameter combinations using cross-validation and identifies a strong configuration for the model.
 
-Parameters considered include:
 
-```text
-C
-solver
-max_iter
-class_weight
-```
-
----
 
 # 📈 Model Evaluation
 
