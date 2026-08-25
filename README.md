@@ -222,7 +222,7 @@ Multiple classification algorithms were evaluated:
 
 The models were compared using their classification performance.
 
-> **Ridge Classifier was removed from the final project.**
+
 
 ---
 
@@ -409,15 +409,3 @@ OLA-Review-Sentiment-Analysis/
 ├── requirements.txt
 └── .gitignore
 ```
-
----
-
-# 🎤 Project Summary
-
-> **"I developed an OLA customer review sentiment analysis system using NLP and machine learning. I first explored and cleaned the review dataset and converted customer ratings into Negative, Neutral, and Positive labels. I then preprocessed the review text and used TF-IDF with unigrams and bigrams to convert text into numerical features. I compared multiple machine-learning algorithms and selected Logistic Regression based on its performance with the TF-IDF features. I handled class imbalance using balanced class weights and tuned the model using GridSearchCV. The final model achieved 89% test accuracy, but the evaluation showed that the Neutral class remains challenging due to the highly imbalanced dataset."**
-
----
-
-## ⭐ Key Takeaway
-
-**Raw Reviews → NLP Preprocessing → TF-IDF → ML Models → Logistic Regression → Hyperparameter Tuning → Evaluation → Sentiment Prediction**
